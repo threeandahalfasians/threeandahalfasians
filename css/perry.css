@@ -1,0 +1,53 @@
+
+.primary-background-color{
+    background-color: #000;
+}
+
+.secondary-background-color{
+    background-color: #fff;
+}
+.primary-text-color{
+    color: #000;
+}
+.secondary-text-color{
+    color: #fff;
+}
+
+a {
+    color: #000;
+}
+/*tekst*/
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+/*title */
+.title-text {
+    padding-top: 27px;
+}
+
+#top-padding-logo{
+  padding-top: 37vh;
+}
+
+#teamname {
+  font-family: 'Roboto', sans-serif;
+  font-size: 47px;
+  color: #fff;
+}
+
+#slogan {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+
+.parallax-window {
+  min-height: 700px;
+  background: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* about */
+.centered-container {
+  margin: 0 auto;
+}

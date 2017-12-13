@@ -31,6 +31,7 @@ body {
 }
 
 
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -174,20 +175,25 @@ hr.small {
 
 /* About */
 
-.about {
+.casebeschrijving {
     padding: 50px 0;
 }
 
 
-/* Services */
+/* profile */
 
-.services {
+.teamintroductie {
     padding: 50px 0;
 }
 
-.service-item {
+.profile-item {
     margin-bottom: 30px;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
+
 
 
 /* Callout */
@@ -207,49 +213,43 @@ hr.small {
 
 /* Portfolio */
 
-.portfolio {
+.onderzoek {
     padding: 50px 0;
 }
 
-.portfolio-item {
+.onderzoek-item {
     margin-bottom: 30px;
 }
 
-.img-portfolio {
+.img-onderzoek {
     margin: 0 auto;
 }
 
-.img-portfolio:hover {
+.img-onderzoek:hover {
     opacity: .8;
 }
 
-
-/* Call to Action */
-
-.call-to-action {
+.concept {
     padding: 50px 0;
 }
 
-.call-to-action .btn {
-    margin: 10px;
+.features {
+    padding: 50px 0;
 }
 
-
-/* Map */
-
-.map {
-    height: 500px;
+.visuals {
+    padding: 50px 0;
 }
 
-@media(max-width:768px) {
-    .map {
-        height: 75%;
-    }
+.prototype {
+    padding: 50px 0;
 }
 
-.map iframe {
-    pointer-events: none;
+/* contact */
+.contact {
+    padding: 50px 0;
 }
+
 
 
 /* Footer */
