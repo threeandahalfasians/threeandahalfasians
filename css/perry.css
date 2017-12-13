@@ -56,3 +56,7 @@ p {
 #onderzoek-upper-padding{
   padding-top: 20px;
 }
+
+#onderzoek-foto {
+  box-shadow: 7px 7px grey;
+}
