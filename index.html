@@ -110,12 +110,12 @@
         	</div>
         	<div class="col-sm-6">
         		<p>Op deze site wordt het concept, team en het proces geïntroduceerd. Je kunt hier lezen wie wij zijn, de details van het concept en hoe wij tot het eindresultaat zijn gekomen.</p>
-            <div class="row">
+            <div id="padding-logo-text" class="row">
               <div class="col-sm-3">
-                <img src="img/yipyip.png" class="img-fluid animated bounce" style="width: 60px; height: 60px"/>
+                <img src="img/yipyip.png" id="partners" class="img-fluid animated bounce"/>
               </div>
               <div class="col-sm-3">
-                <img src="img/hr.png" class="img-fluid animated bounce" style="width: 60px; height: 60px"/>
+                <img src="img/hr.png" id="partners" class="img-fluid animated bounce"/>
               </div>
             </div>
         	</div>
@@ -204,25 +204,28 @@
             </div>
           </div>
           <div class="row" id="onderzoek-upper-padding">
-            <div class="col-md-4 mx-auto text-center">
-              <img id="onderzoek-foto" src="img/onderzoek.png" class="img-fluid" style="width: 300px ;heigth: 150px"/>
+            <div class="col-md-4 mx-auto text-center image-container">
+              <img id="onderzoek-foto" src="img/onderzoek.png" class="img-fluid"/>
+                <div class="after">
+                  &nbsp;
+                </div>
             </div>
             <div class="col-md-4 mx-auto text-center">
-              <img id="onderzoek-foto" src="img/onderzoek2.png" class="img-fluid" style="width: 300px ;heigth: 150px"/>
+              <img id="onderzoek-foto" src="img/onderzoek2.png" class="img-fluid"/>
             </div>
             <div class="col-md-4 mx-auto text-center">
-              <img id="onderzoek-foto" src="img/onderzoek3.png" class="img-fluid" style="width: 300px ;heigth: 150px"/>
+              <img id="onderzoek-foto" src="img/onderzoek3.png" class="img-fluid"/>
             </div>
           </div>
           <div class="row" id="onderzoek-upper-padding">
             <div class="col-md-4 mx-auto text-center">
-              <img id="onderzoek-foto" src="img/onderzoek4.png" class="img-fluid" style="width: 300px ;heigth: 150px"/>
+              <img id="onderzoek-foto" src="img/onderzoek4.png" class="img-fluid"/>
             </div>
             <div class="col-md-4 mx-auto text-center">
-              <img id="onderzoek-foto" src="img/onderzoek5.png" class="img-fluid" style="width: 300px ;heigth: 150px"/>
+              <img id="onderzoek-foto" src="img/onderzoek5.png" class="img-fluid"/>
             </div>
             <div class="col-md-4 mx-auto text-center">
-              <img id="onderzoek-foto" src="img/onderzoek6.png" class="img-fluid" style="width: 300px ;heigth: 150px"/>
+              <img id="onderzoek-foto" src="img/onderzoek6.png" class="img-fluid"/>
             </div>
           </div>
 
@@ -324,7 +327,7 @@
     <script src="js/parallax.min.js"></script>
 
     <script>
-        $('.parallax-window').parallax({imageSrc: 'img/bg.jpg'});
+        $('.parallax-window').parallax({imageSrc: 'img/team.jpg'});
     </script>
 
     <!-- Plugin JavaScript -->

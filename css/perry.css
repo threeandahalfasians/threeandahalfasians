@@ -44,7 +44,7 @@ p {
 .parallax-window {
   min-height: 700px;
   background: transparent;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* about */
@@ -52,11 +52,42 @@ p {
   margin: 0 auto;
 }
 
+/*casebeschrijving*/
+#partners{
+  width: 60px;
+  height: 60px;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+#padding-logo-text {
+  padding-top: 17px;
+}
+
+.image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display:block;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.image-container:hover .after {
+  display:none;
+}
+
 /* onderzoek */
 #onderzoek-upper-padding{
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 #onderzoek-foto {
-  box-shadow: 7px 7px grey;
+  width: 300px;
+  heigth: 150px;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
+  ms-transform: rotate(-1deg); /* IE 9 */
+    -webkit-transform: rotate(-1deg); /* Safari */
+    transform: rotate(-1deg);
 }
