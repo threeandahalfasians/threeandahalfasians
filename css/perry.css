@@ -83,11 +83,18 @@ p {
   padding-top: 30px;
 }
 
-#onderzoek-foto {
+.onderzoek-foto {
   width: 300px;
-  heigth: 150px;
+  /*height: 180px;*/
   box-shadow: 3px 3px rgba(0, 0, 0, 0.2);
   ms-transform: rotate(-1deg); /* IE 9 */
     -webkit-transform: rotate(-1deg); /* Safari */
     transform: rotate(-1deg);
+}
+
+
+/* menu */
+
+#menu-close {
+  background-color: rgb(199, 199, 199);
 }
