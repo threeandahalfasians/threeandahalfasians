@@ -1,3 +1,4 @@
+
 .primary-background-color{
     background-color: #000;
 }
@@ -10,12 +11,6 @@
 }
 .secondary-text-color{
     color: #fff;
-}
-.small-white{
-    max-width: 100px;
-    border-bottom: 1px solid #fff;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 a {
@@ -61,6 +56,8 @@ p {
 #partners{
   width: 60px;
   height: 60px;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
 }
 
 #padding-logo-text {
