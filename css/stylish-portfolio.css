@@ -85,7 +85,7 @@ hr.small {
     -o-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
     transform: translateX(250px);
-    background: #fff;
+    background: #222;
 }
 
 .sidebar-nav {
@@ -100,19 +100,18 @@ hr.small {
 .sidebar-nav li {
     line-height: 40px;
     text-indent: 20px;
-    border-bottom: 1px #b5b5b5 solid;
 }
 
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #000;
+    color: #999;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #404040;
-    background: rgba(0, 0, 0, 0.06);
+    color: #fff;
+    background: rgba(255, 255, 255, .2);
 }
 
 .sidebar-nav li a:active,
@@ -140,6 +139,8 @@ hr.small {
     z-index: 1;
     top: 0;
     right: 0;
+    color: black;
+    background-color: white;
 }
 
 #sidebar-wrapper.active {
