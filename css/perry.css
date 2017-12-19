@@ -26,6 +26,34 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 /*title */
+#home-logo {
+  width: 35%;
+  /*max-width: 300px;*/
+  margin-left: 35%;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #home-logo {
+    width: 35%;
+    margin-left: 35%;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #home-logo {
+    width: 90%;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #home-logo {
+    width: 90%;
+  }
+}
+
 .title-text {
     padding-top: 27px;
 }
