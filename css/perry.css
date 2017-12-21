@@ -18,6 +18,19 @@
     margin-bottom: 1rem;
 }
 
+.fadeinblock {
+  position: absolute;
+  /* top: 4em; */
+  z-index: 3;
+  height: 5em;
+  width: 100%;
+  background-image: linear-gradient(
+          rgba(0, 0, 0, 1) 0%,
+          rgba(0, 0, 0, 0.6) 50%,
+          rgba(0, 0, 0, 0) 100%
+  );
+}
+
 a {
     color: #000;
 }
@@ -178,7 +191,7 @@ p {
 /* concepting */
 #cd-timeline {
   position: relative;
-  padding-bottom: : 2em;
+  padding-bottom: 2em;
   margin-top: 2em;
   /* margin-bottom: 2em; */
 }
