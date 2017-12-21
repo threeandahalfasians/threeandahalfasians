@@ -196,25 +196,21 @@ hr.small {
     padding: 50px 0;
 }
 
-.profiel{
-  -vendor-animation-delay: 1s;
-}
-
-.profiel2{
-  -vendor-animation-delay: 2s;
-}
-
-.profiel3{
-  -vendor-animation-delay: 3s;
-}
-
 .profile-item {
     margin-bottom: 30px;
+    min-height: 390px;
+}
+
+.linkedin-button{
+  position: absolute;
+  bottom: 0;
+  margin-left: 27%;
 }
 
 .profile{
   width: 200px;
   height: 200px;
+
 }
 
 .img-circle {
