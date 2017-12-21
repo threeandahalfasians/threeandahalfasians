@@ -196,6 +196,18 @@ hr.small {
     padding: 50px 0;
 }
 
+.profiel{
+  -vendor-animation-delay: 1s;
+}
+
+.profiel2{
+  -vendor-animation-delay: 2s;
+}
+
+.profiel3{
+  -vendor-animation-delay: 3s;
+}
+
 .profile-item {
     margin-bottom: 30px;
 }

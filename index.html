@@ -82,12 +82,12 @@
     <div class="parallax-window header" id="top">
 
       <div class="container">
-        <div class='icon-scroll'></div>
+        <div class='icon-scroll wow fadeInUp' data-wow-delay="500ms"></div>
         <div class="row" id="top-padding-logo">
           <div class="col-lg-7 mx-auto">
             <div class="row">
               <div class="col-lg-4">
-                  <img id="home-logo" src="img/logo.png" class="img-fluid animated bounceInLeft" alt="3.5 Asians"/>
+                  <img id="home-logo" src="img/logo.png" class="img-fluid wow bounceInLeft" data-wow-duration="5000ms" alt="3.5 Asians"/>
               </div>
               <div class="col-lg-8 text-center title-text">
                 <h1 id="teamname">3.5 Asians</h1>
@@ -156,7 +156,7 @@
             <h2>Ons Team</h2>
             <hr class="small-white">
             <div class="row">
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="200ms">
                 <div class="profile-item">
                   <img src="img/danny.png" class="img-circle profile"/>
                     <div id="nameafstand">
@@ -169,7 +169,7 @@
                     </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="500ms">
                 <div class="profile-item">
                   <img src="img/jorik.png" class="img-circle profile"/>
                     <div id="nameafstand">
@@ -182,7 +182,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="800ms">
                 <div class="profile-item">
                   <img src="img/perry.png" class="img-circle profile"/>
                     <div id="nameafstand">
@@ -190,12 +190,12 @@
                         <strong>Perry Tran</strong>
                       </h4>
                       <p>Concepting & Planner</p>
-                      <p class="font-italic">Is badboy.</p>
+                      <p class="font-italic">Een afwijking tussen Techniek en Creativiteit</p>
                       <a href="https://www.linkedin.com/in/perry-tran-82312585/" target="_blank" class=" btn btn-light">Linkedin</a>
                   </div>
                 </div>
               </div>
-              <div class="col-md-3 col-sm-6">
+              <div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="1100ms">
                 <div class="profile-item">
                   <img src="img/phat.png" class="img-circle profile"/>
                     <div id="nameafstand">
@@ -459,6 +459,11 @@
 
     <!-- vertical timeline -->
     <script src="js/main.js"></script> <!-- Resource jQuery -->
+
+    <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
 
   </body>
 
