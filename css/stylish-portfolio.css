@@ -49,7 +49,7 @@ body {
 }
 
 .btn-light {
-    color: #333;
+    color: #fff;
     border: none;
     border-radius: 0;
     background-color: rgb(255, 255, 255);
@@ -58,7 +58,7 @@ body {
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
-    color: #333;
+    color: #fff;
     background-color: rgba(255, 255, 255, .8);
 }
 
@@ -201,10 +201,22 @@ hr.small {
     min-height: 390px;
 }
 
-.linkedin-button{
-  position: absolute;
-  bottom: 0;
-  margin-left: 27%;
+.linkedin-button {
+  text-align: center;
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.linkedin-button a,
+.linkedin-button a:active,
+.linkedin-button a:visited,
+.linkedin-button a:focus {
+  background-color: rgba(130,190,33,1);
+}
+
+.linkedin-button a:hover{
+  background-color: rgba(0,0,0,1);
 }
 
 .profile{
@@ -219,6 +231,7 @@ hr.small {
 
 #nameafstand{
     padding-top: 20px;
+    min-height: 210px;
 }
 
 /* Callout */
