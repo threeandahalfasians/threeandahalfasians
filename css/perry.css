@@ -22,9 +22,12 @@
   position: absolute;
   /* top: 4em; */
   z-index: 3;
-  height: 1em;
+  height: 5em;
   width: 100%;
-  background-color: rgba(0,0,0,1);
+  background-image: linear-gradient(
+          rgba(256, 256, 256, 1) 0%,
+          rgba(256, 256, 256, 0.6) 50%,
+          rgba(256, 256, 256, 0) 100%
   );
 }
 
@@ -140,7 +143,7 @@ p {
 .parallax-window {
   min-height: 500px;
   background: transparent;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 /* about */
