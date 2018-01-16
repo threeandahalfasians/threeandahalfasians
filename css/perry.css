@@ -576,14 +576,14 @@ p {
     font-size: 14px;
     margin: 5px;
     padding: 9px 18px !important;
-    background: #D6D6D6;
+    background: #000;
     display: inline-block;
     cursor: pointer;
     border-radius: 3px;
 }
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot [class*="owl-"] {
-    background: #90C14E !important;
+    background: #7ed321 !important;
     transition: all .2s linear;
     border-radius: 50% !important;
 }
@@ -591,13 +591,13 @@ p {
 .owl-nav .owl-prev {
     float: left;
     position: absolute;
-    left: -4%;
+    left: -7%;
     top: 41%;
 }
 .owl-nav .owl-next {
     float: right;
     position: absolute;
-    right: -4%;
+    right: -7%;
     top: 41%;
 }
 
