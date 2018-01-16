@@ -1,3 +1,10 @@
+#horizontale-balk{
+    width: 50%;
+    height: 1px;
+    background: #e61267;
+    margin: 0 auto;
+}
+
 .primary-background-color{
     background-color: #000;
 }
@@ -603,7 +610,7 @@ p {
     margin-left: 35%;
   }
   .cd-timeline-img img{
-    width: 80px;
+    width: 67px;
   }
   .branches{
     width: 300px;
@@ -619,7 +626,7 @@ p {
   }
 
   .cd-timeline-img img{
-    width: 90px;
+    width: 77px;
   }
 
   .branches{
@@ -633,11 +640,27 @@ p {
   #home-logo {
     width: 90%;
   }
+  .cd-timeline-img img{
+    width: 90px;
+  }
+
+  .branches{
+    width: 750px;
+    height: 250px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #home-logo {
     width: 90%;
+  }
+  .cd-timeline-img img{
+    width: 90px;
+  }
+
+  .branches{
+    width: 750px;
+    height: 250px;
   }
 }
