@@ -194,8 +194,7 @@ p {
 
 .branches {
   position: relative;
-  width: 750px;
-  height: 250px;
+  z-index: 2;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -244,16 +243,6 @@ p {
   left: 0;
   width: 40px;
   height: 40px;
-}
-.cd-timeline-img img {
-  display: block;
-  width: 110px;
-  height: 110px;
-  position: relative;
-  left: -16%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
 }
 
 @media only screen and (min-width: 1170px) {
@@ -594,13 +583,6 @@ p {
     width: 35%;
     margin-left: 35%;
   }
-  .cd-timeline-img img{
-    width: 70px;
-  }
-  .branches{
-    width: 250px;
-    height: 50px;
-  }
 }
 
 /*phones*/
@@ -608,13 +590,6 @@ p {
   #home-logo {
     width: 35%;
     margin-left: 35%;
-  }
-  .cd-timeline-img img{
-    width: 67px;
-  }
-  .branches{
-    width: 300px;
-    height: 75px;
   }
 }
 
@@ -624,15 +599,6 @@ p {
     width: 35%;
     margin-left: 35%;
   }
-
-  .cd-timeline-img img{
-    width: 77px;
-  }
-
-  .branches{
-    width: 450px;
-    height: 100px;
-  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -640,27 +606,11 @@ p {
   #home-logo {
     width: 90%;
   }
-  .cd-timeline-img img{
-    width: 90px;
-  }
-
-  .branches{
-    width: 750px;
-    height: 250px;
-  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #home-logo {
     width: 90%;
-  }
-  .cd-timeline-img img{
-    width: 90px;
-  }
-
-  .branches{
-    width: 750px;
-    height: 250px;
   }
 }
