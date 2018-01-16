@@ -3,6 +3,19 @@
     height: 1px;
     background: #e61267;
     margin: 0 auto;
+
+
+}
+
+.hr-pink {
+  border: 0;
+  height: 1px;
+  width: 50%;
+  margin: 0 auto;
+  background-image: -webkit-linear-gradient(left, #ffffff, #e61267, #ffffff);
+  background-image: -moz-linear-gradient(left, #ffffff, #e61267, #ffffff);
+  background-image: -ms-linear-gradient(left, #ffffff, #e61267, #ffffff);
+  background-image: -o-linear-gradient(left, #ffffff, #e61267, #ffffff); }
 }
 
 .primary-background-color{
