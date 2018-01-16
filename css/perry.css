@@ -570,7 +570,86 @@ p {
   color: #7ED321;
 }
 
+/*carousel*/
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot [class*=owl-] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 9px 18px !important;
+    background: #D6D6D6;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px;
+}
 
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot [class*="owl-"] {
+    background: #90C14E !important;
+    transition: all .2s linear;
+    border-radius: 50% !important;
+}
+
+.owl-nav .owl-prev {
+    float: left;
+    position: absolute;
+    left: -4%;
+    top: 41%;
+}
+.owl-nav .owl-next {
+    float: right;
+    position: absolute;
+    right: -4%;
+    top: 41%;
+}
+
+.downloadbutton {
+  color: #fff;
+  background-color: #7ed321;
+  border-color: #7ed321;
+  width: 10%;
+  height: 100%;
+  border-radius: 7px;
+  margin: 0 auto;
+}
+
+.downloadbutton:hover,
+.downloadbutton:focus,
+.downloadbutton:active,
+.downloadbutton.active,
+.open .dropdown-toggle.downloadbutton {
+  color: #fff;
+  background-color: #0B8F22;
+  border-color: #0B8F22;
+}
+
+.downloadbutton:active,
+.downloadbutton.active,
+.open .dropdown-toggle.downloadbutton {
+  background-image: none;
+}
+
+.downloadbutton.disabled,
+.downloadbutton[disabled],
+fieldset[disabled] .downloadbutton,
+.downloadbutton.disabled:hover,
+.downloadbutton[disabled]:hover,
+fieldset[disabled] .downloadbutton:hover,
+.downloadbutton.disabled:focus,
+.downloadbutton[disabled]:focus,
+fieldset[disabled] .downloadbutton:focus,
+.downloadbutton.disabled:active,
+.downloadbutton[disabled]:active,
+fieldset[disabled] .downloadbutton:active,
+.downloadbutton.disabled.active,
+.downloadbutton[disabled].active,
+fieldset[disabled] .downloadbutton.active {
+  background-color: #003C22;
+  border-color: #003C22;
+}
+
+.downloadbutton .badge {
+  color: #611BBD;
+  background-color: #80CC29;
+}
 /* menu */
 
 #menu-close {
